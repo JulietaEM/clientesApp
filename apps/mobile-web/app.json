@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "clientesApp",
+    "slug": "clientes-app",
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./assets/cart-favicon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/cart-favicon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#F2F2F2"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#F2F2F2"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "bundler": "metro",
+      "favicon": "./assets/cart-favicon.png"
+    }
+  }
+}
