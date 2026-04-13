@@ -7,8 +7,8 @@ dotenv.config({
 
 const env = {
   port: Number(process.env.PORT || 4000),
-  jwtSecret: process.env.JWT_SECRET || 'default-dev-secret',
-  dbServer: process.env.DB_SERVER || 'DESKTOP-M19C4KS',
+  jwtSecret: process.env.JWT_SECRET,
+  dbServer: process.env.DB_SERVER,
   dbName: process.env.DB_NAME || 'dbClientes',
   dbUser: process.env.DB_USER || 'clienteapp_user',
   dbPassword: process.env.DB_PASSWORD || '',
